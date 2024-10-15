@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            background-color: antiquewhite;
+            color: black;
+        }
+        p::first{
+            font-size: 40px;
+        }
+        p::selection{
+            color: red;
+            background-color: black;
+        }
+        h1::before{
+            content: "Hi, ";
+            color: green;
+        }
+        h1::after{
+            content: " Divya";
+            color: green;
+        }
+        .container{
+            border: 4px solid red;
+            height: 50vh;
+            width: 50vh;
+            font-size: 40px;
+        }
+        .child{
+            border: 4px solid green;
+            height: 50%;
+            width: 50%;
+            font-size: 4rem;
+        }
+        span {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid id harum sequi, tempore, officia deleniti, inventore eius distinctio architecto quibusdam neque totam repellendus fugiat soluta dolore earum. Quis nulla odit aperiam cum. Obcaecati voluptate provident recusandae, eaque ipsum eligendi doloribus?</p>
+    <h1>Good Morning</h1>
+    <div class = container>
+        <div class = "child">
+            Hello World
+        </div>
+        Hello World
+    </div>
+</body>
+</html>

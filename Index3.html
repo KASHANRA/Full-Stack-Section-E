@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: red;
+        }
+        div>h2{
+            color: green;
+        }
+        div ul li p{
+            color: orange;
+        }
+        ul li:first-child{
+            color: blue;
+        }
+        ul li:last-child{
+            color: blue;
+        }
+        ul li:nth-child(3n+1){
+            color:black;
+        }
+        p+li{
+            color: olivedrab;        
+        }
+        p~li{
+            color: yellow;
+        }
+        a:link{
+            text-decoration: none;
+            color: orange;
+        }
+        a:hover{
+            background-color: antiquewhite;
+            color: black;
+        }
+        a:visited{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam porro, reiciendis tempora iste eaque sapiente excepturi? Odio culpa exercitationem saepe illo id quis fuga, nisi voluptatem eius quasi, obcaecati nemo.</p>
+        <h2>Selectors in CSS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, repellat enim aut corporis illum ratione labore laudantium, asperiores sunt quam nisi modi, ex nemo aperiam saepe quas ipsam. Voluptatem recusandae facere, repudiandae labore ducimus voluptates nisi nulla impedit iure obcaecati mollitia, velit cum ex consectetur earum assumenda alias. Repellendus, labore.</p>
+        <ul>
+            <li><p>Items inside list</p></li>
+            <p>Lorem, ipsum.</p>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <p>Lorem, ipsum.</p>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+            <p>Items outside list</p>
+        </ul>
+    </div>
+    <a href="https://www.google.com/">Google</a>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+            margin: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: slide;
+            animation-duration: 4s;
+        }
+        @keyframes slide {
+            0%{
+                top: 0px;
+                left: 0px;
+                background-color: aqua;
+                transform: rotate(0deg);
+            }
+            25%{
+                top: 0px;
+                left: 400px;
+                background-color: purple;
+                border-radius: 50%;
+                border: 10px double green;
+            }
+            50%{
+                top: 400px;
+                left: 400px;
+                background-color: antiquewhite;
+                border-radius: 0%;
+                border: 10px dashed green;
+            }
+            75%{
+                top: 400px;
+                left: 0px;
+                border-radius: 50%;
+                background-color: green;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            height: 1000px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;      
+            flex-wrap: wrap;
+        }
+        .Item{
+            border: 2px solid green;
+            height: 300px;
+            width: 200px;
+            margin: 8px;
+        }
+        #Item1{
+            order: 1;
+            flex-grow: 2;
+            flex-shrink: 2;
+            flex-basis: 390px;
+            align-self: stretch;
+        }
+        #Item2{
+            order: 2;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Item" id = Item1>Item1</div>
+        <div class="Item">Item2</div>
+        <div class="Item" id = Item2>Item3</div>
+        <div class="Item">Item4</div>
+        <div class="Item">Item5</div>
+        <div class="Item">Item6</div>
+    </div>
+</body>
+</html>

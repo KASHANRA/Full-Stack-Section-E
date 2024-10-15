@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heading1</h1>
+    <h6>Heading6</h6>
+    <p style="color: rgb(68, 0, 255);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi obcaecati magnam ducimus iste! Suscipit fugit incidunt officia sapiente ad quos omnis doloribus, at dignissimos numquam sit optio iste quia voluptatem.</p>
+    <ul>
+        <li>Jawaan</li>
+        <li>KGF</li>
+        <li>War</li>
+        <li>Kalki</li>
+    </ul>
+    <h2><i>Technologies</i></h2>
+    <ol reversed="reverse", start="2", type="I">
+        <li>Frontend</li>
+        <ul type="disc">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>React</li>
+        </ul>
+        <li>Backend</li>
+        <ul type="disc">
+            <li>Node</li>
+            <li>Deno</li>
+            <li>Django</li>
+        </ul>
+    </ol>
+    <dl>
+        <dt>Milk</dt>
+        <dd>A white liquid dairy product</dd>
+        <dt>Chocolate</dt>
+        <dd>A sweet dairy product</dd>
+        <dt>Chips</dt>
+        <dd>A potato snacking product</dd>
+        <dt>Cold Drink</dt>
+        <dd>A sweet cold beverage</dd>
+    </dl>
+    <form action = "backend.js">
+        <fieldset>
+            <legend>
+                Personal Details
+            </legend>
+            <div>
+                <label for = "name">Name</label>
+                <input type = "text" placeholder = "Enter your name here" id = "name"/>
+            </div>
+            <div>
+                <label for = "age">Age</label>
+                <input type = "number" placeholder = "Enter your age here" id = "age"/>
+            </div>
+            <div>
+                <label for = "email">Email</label>
+                <input type = "email" placeholder = "Enter your emial here" id = "email"/>
+            </div>
+            <div>
+                <label for = "password">Password</label>
+                <input type = "password" placeholder = "Enter your password here" id = "password"/>
+            </div>
+        </fieldset>
+        <br><br><br><br>
+    </form>
+    <form action = "backend.js" method="get">
+        <legend><b>
+            Registration Form
+        </legend></b>
+        <div>
+            <label for = "FName">First Name</label>
+            <input type = "text" placeholder="Enter First Name" name="Fname" id = "FName"/>
+        </div>
+        <div>
+            <label for = "LName">Last Name</label>
+            <input type = "text" placeholder="Enter Last Name" name = "Lname" id = "LName"/>
+        </div>
+        <div>
+            <label for = "Mail">Email</label>
+            <input type = "email" placeholder="Enter Email Address" name = "mail" id = "Mail"/>
+        </div>
+        <div>
+            <label for = "PWord">Password</label>
+            <input type = "password" name = "Pword" id = "PWord"/>
+        </div>
+        <div>
+            <label>Gender</label><br>
+            <label for = "M">Male</label>
+            <input type = "radio" id = "M" name = "G"><br>
+            <label for = "F">Female</label>
+            <input type = "radio" id = "F" name = "G"><br>
+            <label for = "O">Others</label>
+            <input type = "radio" id = "O" name = "G">
+        </div>
+        <div>
+            <label for = "age">Age</label>
+            <input type = "number" name = "Age" id = "age"/>
+        </div>
+        <div>
+            <label>Preferences</label><br>
+            <label for = "AP">Arcylic Painting</label>
+            <input type = "checkbox" name = "Arcylic Painting" id = "AP"/><br>
+            <label for = "OP">Oil Painting</label>
+            <input type = "checkbox" name = "Oil Painting" id = "OP"/><br>
+            <label for = "WCP">Water Colour Painting</label>
+            <input type = "checkbox" name = "Water Colour Painting" id = "WCP"/>
+        </div>
+        <div>
+            <label for = "Select">Select Occupation</label>
+            <select name = "Occupation">
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Admin</option>
+            </select>
+        </div>
+        <div>
+            <label for = "Bio">Bio</label>
+            <textarea cols = "50" rows = "10" name = "bio" id = "Bio"/></textarea>
+        </div>
+        <button type = "submit" name="Fname" name = "Lname" name = "mail" name = "Pword" name="G" name = "Age" 
+        name = "Arcylic Painting" name = "Oil Painting" name = "Water Colour Painting" name = "Occupation" name = "bio">Submit</button>
+        <button type = "reset">Reset</button><br><br>
+    </form>
+    <table>
+        <caption><b>
+            Marks
+        </caption></b>
+        <tr>
+            <th>Subjects</th>
+            <th>Mid Term</th>
+            <th>End Term</th>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>30</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>27</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Chemistry</td>
+            <td>25</td>
+            <td>66</td>
+        </tr>
+    </table>
+</body>
+</html>
